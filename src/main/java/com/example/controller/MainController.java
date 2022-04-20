@@ -21,10 +21,6 @@ public class MainController {
     }
 
     //直接访问http://localhost:8080/index即可，不用加web应用程序名称了
-    @RequestMapping("/index")
-    public String index(){
-        return "index";
-    }
 
 
 
